@@ -1,0 +1,106 @@
+<html>
+
+<head>
+    <title>o_nas</title>
+    <link href="../resources/css/o_nas.css" type="text/css" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="navigacny_panel">
+        <a href="../html/uvodna_stranka.html"><img src="../resources/images/logo.png" class="logo"></a>
+        <nav>
+            <ul>
+                <button class="zoznam"><a href="../html/protein.html">Mobilné telefóny</a></button>
+                <button class="zoznam"><a href="../html/kreatin.html">Hodinky</a></button>
+                <button class="zoznam"><a href="../html/predtreningovky.html">Počítače</a></button>
+                <button class="zoznam"><a href="../html/ostatne_suplementy.html">Televízory</a></button>
+                <button class="zoznam"><a href="../html/oblecenie.html">Chladničky</a></button>
+                <button class="o_nas"><a href="../html/o_nas.html">O nás</a></button>
+            </ul>
+        </nav>
+    </div>
+
+    <div class="rad">
+    <div class="formular">
+        <form>
+            <fieldset>
+                <legend>Osobné údaje</legend>
+                <label>Meno<input type="text" name="kontaktne_udaje" size="30" maxlenght="1"></label>
+                <label>Priezvisko<input type="text" name="kontaktne_udaje" size="30" maxlenght="1"></label>
+                <label>Vek<input type="number" name="kontaktne_udaje" size="30" maxlenght="1"></label>
+                <label>Pohlavie<input type="text" name="kontaktne_udaje" size="30" maxlenght="1"></label>
+                <label>Emailová adresa<input type="email" name="emailova_adresa" size="50" maxlenght="5"></label><br>
+                <label for="info">Ako ste sa o nás dozvedeli?</label>
+                <select name="respondent" id="info">
+                    <option value="facebook">cez kamaráta</option>
+                    <option value="instagram">na sociálnej sieti</option>
+                    <option value="instagram">v TV reklame</option>
+                </select>
+                <p>Páči sa vám dizajn našej stránky?<br />
+                    <label><input type="radio" name="hodnotenie" value="ano" />Áno</label>
+                    <label><input type="radio" name="hodnotenie" value="nie" />Nie</label>
+                </p>
+                <p>
+                    <label for="komentar">Tu napíšte Vaše pripomienky</label><br />
+                    <textarea rows="4" cols="40" id="komenatar"></textarea>
+                </p>
+                <label>prihlásiť sa na odber noviniek<input type="checkbox" name="subscribe"
+                        checked="checked" /></label><br />
+                <button type="button" onclick="alert('Úspešne ste odoslali formulár')">Odoslať</button>
+            </fieldset>
+    </div>
+
+    <div class="stlpec">
+    <div class="informacie">
+        <img src="../resources/images/ja.jpg" class="obrazok">
+        <ul>
+            <li><b>Meno:</b> Erik</li>
+            <li><b>Priezvisko:</b> Hyriak</li>
+            <li><b>Ročník:</b> II.B</li>
+            <li><b>Kontaktné údaje:</b>
+                <ul>
+                    <li><b>Tel. č.:</b> +421 999 888 777</li>
+                    <li><b>E-mail:</b> hyriak.eh@gmail.com</li>
+                </ul>
+        </ul>
+    </div>
+
+    <div class="prezentacia">
+        <div class="video">
+            <video src="../resources/video/prezentacia_stranky.mp4" poster="../resources/images/thumbnail.jpg"
+                width="500" height="300" controls></video>
+        </div>
+        <audio controls>
+            <source src="../resources/audio/uputavka.aac">
+        </audio>
+    </div>
+    </div>
+    </div>
+
+    <div class="linky">
+        <ul>
+            <li><a class="link"
+                    href="https://www.google.com/search?q=galaxy+s22+ultra&rlz=1C1CHBD_skSK917SK917&sxsrf=APq-WBsxWQHxRahX1mZoXxT9IApsZmzZog:1646508860817&source=lnms&tbm=isch&sa=X&ved=2ahUKEwj1zJK-26_2AhXFO-wKHUOOBPYQ_AUoAXoECAEQAw&biw=1536&bih=722&dpr=1.25#imgrc=m9-R0Junvs4uZM">1.
+                    obrázok</a></li>
+            <li><a class="link"
+                    href="+s22&gs_lcp=CgNpbWcQAzIHCCMQ7wMQJzILCAAQgAQQsQMQgwEyBAgAEB4yBAgAEB4yBAgAEB4yBAgAEB4yBAgAEB4yBAgAEB4yBAgAEB4yBAgAEB46BggAEAcQHlDcxxJYz9ASYJ7SEmgBcAB4AIABf4gB_wWSAQMyLjWYAQCgAQGqAQtnd3Mtd2l6LWltZ8ABAQ&sclient=img&ei=PrsjYovgBJamgwf24oPwCg&bih=722&biw=1536&rlz=1C1CHBD_skSK917SK917#imgrc=XtPyj6vn1BnSoM">2.
+                    obrázok</a></li>
+            <li><a class="link" href="wKHZkoCvIQ_AUoAXoECAEQAw&biw=1536&bih=722&dpr=1.25#imgrc=2lhb78gNvsj2cM">3.
+                    obrázok</a></li>
+            <li><a class="link"
+                    href="+3&gs_lcp=CgNpbWcQARgAMgYIABAHEB4yBggAEAcQHjIGCAAQBxAeMgYIABAHEB4yBggAEAcQHjIICAAQBxAFEB4yCAgAEAcQBRAeMggIABAHEAUQHjIICAAQBxAFEB4yCAgAEAgQBxAeOgcIIxDvAxAnOgQIABATUK0bWK0nYOYzaAFwAHgAgAF5iAGPBZIBAzAuNpgBAKABAaoBC2d3cy13aXotaW1nwAEB&sclient=img&ei=Or4jYr3HOZKMlQf_sIb4BQ&bih=722&biw=1536&rlz=1C1CHBD_skSK917SK917#imgrc=grpHYMyXqVOhHM">4.
+                    obrázok</a></li>
+            <li><a class="link"
+                    href="WBtD1PsVyJzWF029NHEgNchcNvOr7g:1646510013458&source=lnms&tbm=isch&sa=X&ved=2ahUKEwjYouLj36_2AhUWwQIHHWqOA14Q_AUoAXoECAEQAw&biw=1536&bih=722&dpr=1.25#imgrc=KNkwDbj_LBqNMM">5.
+                    obrázok</a></li>
+        </ul>
+    </div>
+
+    <div class="pata">
+        <p2>Kopírovanie obsahu stránky neoprávnenymi osobami je zakázané! &copy; 2022 Erik Hyriak</p2>
+    </div>
+
+</body>
+
+</html>
